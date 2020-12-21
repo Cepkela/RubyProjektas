@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pavadinimas: MyString
+  zanras: MyString
+  rasytojas: MyString
+  puslapiuSk: 1
+
+two:
+  pavadinimas: MyString
+  zanras: MyString
+  rasytojas: MyString
+  puslapiuSk: 1

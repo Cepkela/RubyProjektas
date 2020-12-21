@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Pavadinimas:</strong>
+  <%= @book.pavadinimas %>
+</p>
+
+<p>
+  <strong>Zanras:</strong>
+  <%= @book.zanras %>
+</p>
+
+<p>
+  <strong>Rasytojas:</strong>
+  <%= @book.rasytojas %>
+</p>
+
+<p>
+  <strong>Puslapiusk:</strong>
+  <%= @book.puslapiuSk %>
+</p>
+
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>
